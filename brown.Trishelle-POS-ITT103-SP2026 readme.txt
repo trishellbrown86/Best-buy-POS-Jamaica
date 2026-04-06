@@ -1,0 +1,103 @@
+Authors:Trishelle Brown
+ Major_Project-ITT103-SP2026
+Date Created: April 2026
+Course: ITT103 – Programming Techniques
+GitHub Public URL to Code: (Paste your GitHub link here)
+
+---
+
+PROGRAM TITLE: Best buy Point of Sale (POS) System
+
+---
+
+PURPOSE OF THE PROGRAM:
+
+This program was developed to simulate a Point of Sale (POS) system for a small retail business called Best Buy Retail Store. The goal of the system is to help cashiers process customer purchases more efficiently while reducing human errors that may occur during manual calculations.
+
+The program allows users to interact with a menu-driven system where they can view products, add or remove items from a shopping cart, calculate totals, process payments, and generate a receipt. The system reflects a real-world retail environment and demonstrates the use of programming concepts such as functions, loops, conditionals, and data structures.
+
+---
+
+FEATURES OF THE SYSTEM:
+
+The POS system includes the following main features:
+
+• A predefined product catalog with item names, prices, and stock quantities
+• Ability to add items to a shopping cart with stock validation
+• Ability to remove items from the cart
+• Display of cart contents including item totals
+• Automatic calculation of subtotal, tax (10%), and final total
+• Discount system where customers receive a 5% discount if their bill exceeds $5000
+• Payment processing with validation to ensure sufficient payment
+• Receipt generation showing all transaction details
+• Low stock alerts when item quantity falls below 5
+• Ability to handle multiple transactions in a single session
+
+---
+
+HOW TO RUN THE PROGRAM:
+
+1. Ensure Python is installed on your computer
+
+2. Save the program file as:
+   Lastname.Firstname-POS-ITT103-SP2026.py
+
+3. Open Command Prompt (CMD)
+
+4. Navigate to the location where the file is saved
+   Example:
+   cd Desktop
+
+5. Run the program using:
+   python filename.py
+
+6. Follow the on-screen menu to interact with the system
+
+---
+
+PROGRAM STRUCTURE:
+
+The program is divided into several functions to improve readability and reusability. Each function is responsible for a specific task, such as displaying the menu, adding items to the cart, processing checkout, and printing the receipt.
+
+A dictionary is used to store product details, including price and stock. Another dictionary is used to manage the shopping cart.
+
+Loops are used to keep the system running continuously until the user chooses to exit.
+
+---
+
+ASSUMPTIONS:
+
+• All prices are entered in Jamaican dollars
+• The cashier enters valid product names as displayed in the product list
+• Customers will complete transactions in one session
+• Stock is reduced immediately after items are added to the cart
+
+---
+
+LIMITATIONS:
+
+• The system does not store transaction history permanently
+• No graphical user interface (GUI) is included
+• The system is designed for a single user at a time
+• Data is not saved to an external file or database
+
+---
+
+MODIFICATIONS AND IMPROVEMENTS:
+
+The following enhancements were added to improve the system:
+
+• Added input validation to prevent incorrect entries
+• Implemented exception handling using try and except blocks
+• Included a discount feature for large purchases
+• Added low stock warning system
+• Improved receipt formatting for better readability
+• Structured the program using functions for modular design
+
+---
+
+DECLARATION:
+
+I CERTIFY THAT I HAVE NOT GIVEN OR RECEIVED ANY UNAUTHORIZED ASSISTANCE ON THIS ASSIGNMENT.
+
+(Sign your name here)
