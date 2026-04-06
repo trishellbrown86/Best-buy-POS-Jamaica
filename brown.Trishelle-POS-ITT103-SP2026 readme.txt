@@ -1,8 +1,8 @@
 Authors:Trishelle Brown
  Major_Project-ITT103-SP2026
 Date Created: April 2026
-Course: ITT103 – Programming Techniques
-GitHub Public URL to Code: (Paste your GitHub link here)
+Course: ITT103 â€“ Programming Techniques
+GitHub Public URL to Code: https://github.com/trishellbrown86/Best-buy-POS-Jamaica.git
 
 ---
 
@@ -22,16 +22,16 @@ FEATURES OF THE SYSTEM:
 
 The POS system includes the following main features:
 
-• A predefined product catalog with item names, prices, and stock quantities
-• Ability to add items to a shopping cart with stock validation
-• Ability to remove items from the cart
-• Display of cart contents including item totals
-• Automatic calculation of subtotal, tax (10%), and final total
-• Discount system where customers receive a 5% discount if their bill exceeds $5000
-• Payment processing with validation to ensure sufficient payment
-• Receipt generation showing all transaction details
-• Low stock alerts when item quantity falls below 5
-• Ability to handle multiple transactions in a single session
+â€¢ A predefined product catalog with item names, prices, and stock quantities
+â€¢ Ability to add items to a shopping cart with stock validation
+â€¢ Ability to remove items from the cart
+â€¢ Display of cart contents including item totals
+â€¢ Automatic calculation of subtotal, tax (10%), and final total
+â€¢ Discount system where customers receive a 5% discount if their bill exceeds $5000
+â€¢ Payment processing with validation to ensure sufficient payment
+â€¢ Receipt generation showing all transaction details
+â€¢ Low stock alerts when item quantity falls below 5
+â€¢ Ability to handle multiple transactions in a single session
 
 ---
 
@@ -67,19 +67,19 @@ Loops are used to keep the system running continuously until the user chooses to
 
 ASSUMPTIONS:
 
-• All prices are entered in Jamaican dollars
-• The cashier enters valid product names as displayed in the product list
-• Customers will complete transactions in one session
-• Stock is reduced immediately after items are added to the cart
+â€¢ All prices are entered in Jamaican dollars
+â€¢ The cashier enters valid product names as displayed in the product list
+â€¢ Customers will complete transactions in one session
+â€¢ Stock is reduced immediately after items are added to the cart
 
 ---
 
 LIMITATIONS:
 
-• The system does not store transaction history permanently
-• No graphical user interface (GUI) is included
-• The system is designed for a single user at a time
-• Data is not saved to an external file or database
+â€¢ The system does not store transaction history permanently
+â€¢ No graphical user interface (GUI) is included
+â€¢ The system is designed for a single user at a time
+â€¢ Data is not saved to an external file or database
 
 ---
 
@@ -87,12 +87,12 @@ MODIFICATIONS AND IMPROVEMENTS:
 
 The following enhancements were added to improve the system:
 
-• Added input validation to prevent incorrect entries
-• Implemented exception handling using try and except blocks
-• Included a discount feature for large purchases
-• Added low stock warning system
-• Improved receipt formatting for better readability
-• Structured the program using functions for modular design
+â€¢ Added input validation to prevent incorrect entries
+â€¢ Implemented exception handling using try and except blocks
+â€¢ Included a discount feature for large purchases
+â€¢ Added low stock warning system
+â€¢ Improved receipt formatting for better readability
+â€¢ Structured the program using functions for modular design
 
 ---
 
